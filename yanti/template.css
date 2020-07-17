@@ -1,0 +1,123 @@
+body	{
+		background:url('Gambar/4.jpg')no-repeat;
+		background-size:100% 100%;
+		min-height:500px;
+		font-family:Arial,Hervetica,Sans-serif;
+		font-size:12px;
+		margin:20px;
+		padding:0;
+		}
+input,form,textarea
+h1,h2,h3,h4,h4,h6 {
+					margin:0;
+					padding:0;
+					}
+h1					{
+					font-size:18px;
+					}
+h2					{
+					font-size:13px;
+					}
+h3					{
+					font-size:13px;
+					border-color:solid 1px #DEDEDE;
+					padding:4px 0;
+					margin-bottom:10px;
+					}
+a:link, a:visited	{
+					color:#0033CC;
+					}
+a:hover				{
+					text-decoration:none;
+					}
+					
+/*CSS Untuk Header*/
+#container			{
+			width:750px;
+			margin:0 auto;
+			height:100%;
+					}
+#topbar{
+			width:auto;
+			display:block;
+			height:40px;
+			background:#A9F5F2;
+			top:10px;
+					}
+					
+#navbar				{
+			width:auto;
+			display:block;
+			height:28px;
+					}
+#navbar a			{
+			height:28px;
+			line-height:28px padding: 0 8px;
+			display:inline;			
+					}
+					
+/*CSS Untuk Body*/
+#main				{
+			width:auto;
+			display:block;
+			padding:10px 0;
+			background:#CCC;
+					}
+#column_left		{
+			width:400px;
+			margin-right:20px;
+			float:left;
+			padding:10px;
+					}
+#column_right		{
+			width:160px;
+			margin-right:20px;
+			float:left;
+					}
+#column_right_adsense{
+			width:120px;
+			float:left;
+					}
+div.spacer			{
+			clear:both;
+			height:10px;
+			display:block;
+					}
+
+/*CSS Untuk Footer*/
+#footer				{
+			width:auto;
+			display:block;
+			padding:10px 0;
+			font-size:11px;
+ 			color:#666666;
+					}
+					
+/*Jika ukuran 780px kurang*/
+@media screen and (max-width:780px){
+									#contrainer
+									{
+						width:100%
+									}
+									#topbar
+									{
+									width:100%;
+						height:100%
+									}
+									#main
+									{
+									width:100%;
+									}
+									#column_left
+									{
+									width:98%
+									}
+						#column_right
+						{
+						width:100%
+						}
+						#footer
+						{
+						width:100%
+						}
+						}
